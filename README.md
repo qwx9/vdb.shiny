@@ -1,4 +1,4 @@
-*Visualisation de données biologiques*
+*Visualisation de données biologiques* 2019-2020
 -------------
 
 ### Liste des packages R utiles pour ce cours :
