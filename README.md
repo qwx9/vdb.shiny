@@ -163,3 +163,5 @@ Cette application contiendra :
   - un objet interactif qui permet de sélectionner le père, la mère ou les deux
   - une zone graphique contenant le ou les graphiques (selon les valeurs des deux objets interactifs précédents) de la distribution de l'âge des parents des portées de varis.
 
+
+- **4.2.C** - Dans le but de rendre disponible vos analyses sur le jeu de données `dfvaris_litter`, créez une application qui affiche le même graphique (par exemple, le boxplot représentant la distribution de la taille des portées de varis dans les 2 espèces, voir dernier onglet des sections 3.2 et 3.3) sous 3 formes différentes : le 1er généré à partir du package `graphics`, le 2ème généré à partir du package `ggplot2` et le 3ème généré à partir des packages `ggplot2` et `plotly`.
