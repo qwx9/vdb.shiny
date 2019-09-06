@@ -41,6 +41,7 @@ Supposez une fonction `info_vect` qui prend en entrée un vecteur et qui renvoie
 - **2.2.D** - Faire une boucle pour appliquer cette fonction à chaque variable du jeu de données `dfvaris_litter`.
 - **2.2.E** - Remplacez la boucle développée dans la question **2.2.E** par une fonction `lapply` pour obtenir le même résultat.
 - **2.2.F** - Laquelle des deux méthodes (**2.2.E** vs **2.2.F**) est la plus rapide à l'exécution ?
+
 ```r
 library(microbenchmark)
 ```
@@ -63,6 +64,7 @@ library(microbenchmark)
 <br>
 
 - **3.2.A** - Complétez le graphique créé avec le code ci-dessous en colorant l'aire sous la courbe de densité pour les valeurs supérieures au 3ème quartile.
+
 ```r
 (h_agedam <- hist(dfvaris_litter$agedam, freq = FALSE, 
                main = "Distribution de l'âge de la mère des portées de varis",
@@ -82,6 +84,7 @@ polygon(c(0, dens_agedam$x[dens_agedam$x <= qrtle1]),
         col = rgb(1, 0, 0, alpha = 0.3))
 ```
 - **3.2.B** - Sur le modèle des 3 sous-graphiques créés avec le code ci-dessous, complétez le graphique en construisant un 4ème sous-graphique représentant la distribution de l'âge des pères des portées de l'espèce V. Variegata.
+
 ```r
 par(mfrow = c(2, 2))
 
@@ -98,6 +101,7 @@ hist(dfagesire_vr, freq = FALSE, main = "Distribution de l'âge du\npère des po
 lines(density(dfagesire_vr))
 ```
 - **3.2.C** - Sur le modèle du graphique créé avec le code ci-dessous, construisez un boxplot représentant la distribution de l'âge des pères des portées de chacune des deux espèces.
+
 ```r
 bxpt_agedam <- boxplot(dfvaris_litter$agedam ~ dfvaris_litter$species, xlab = "", ylab = "Age de la mère", col = c("#69b3a2", "#404080"))
 ```
@@ -115,6 +119,7 @@ bxpt_agedam <- boxplot(dfvaris_litter$agedam ~ dfvaris_litter$species, xlab = ""
 - **4.2.A** - Créez une application (qui s'affiche et réagit comme attendu) à partir des codes ci-dessous.
 Cette première application s'appuie sur le jeu de données `doubs` d'`ade4` vu dans la section 2.1.
 Ici, founissez simplement une capture d'écran de deux états différents de l'application produite.
+
 ```r
 # ui.R
 shinyUI(fluidPage(
