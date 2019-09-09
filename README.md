@@ -154,7 +154,7 @@ shinyServer(function(input, output) {
 ```
 
 
-- **4.2.B** - Dans le but de rendre disponible vos analyses sur le jeu de données `dfvaris_litter`, créez une application qui permettra d'afficher la distribution (histogramme et courbe de densité) de l'âge des parents pour les espèces de varis (voir les graphiques dans les deuxièmes onglets des sections 3.2 et 3.3). 
+- **4.2.B** - Dans le but de rendre disponibles vos analyses sur le jeu de données `dfvaris_litter`, créez une application qui permettra d'afficher la distribution (histogramme et courbe de densité) de l'âge des parents pour les espèces de varis (voir les graphiques dans les deuxièmes onglets des sections 3.2 et 3.3). 
 Ici, fournissez le code R et une capture d'écran de votre application.
 Cette application contiendra :
   - un titre
