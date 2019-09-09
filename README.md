@@ -52,13 +52,13 @@ library(microbenchmark)
 ### 3 Les graphiques dans R
 
 
-- **3.1.A** - A l'aide du package `graphics`, inspirez-vous de la Figure S1 en annexe de l'article de Tidière et al. (2018) pour créer un graphique contenant :
+- **3.1.A** - A l'aide du package `graphics`, inspirez-vous de la Figure S1 (en annexe de l'article de Tidière et al. (2018)) pour créer un graphique contenant :
   - l'âge de la mère en fonction de l'âge du père de chaque portée, en différenciant les deux espèces
   - la droite de régression du modèle linéaire expliquant l'âge du père par l'âge de la mère
   - l'équation de cette droite de régression
   - la droite représentant un modèle d'accouplement des varis où l'âge du père est égal à l'âge de la mère
   - des points supplémentaires représentant l'âge moyen du père pour chaque âge de la mère, en différenciant les deux espèces
-- **3.1.B** - Pour quelles raisons le graphique produit à la question **3.1.A** est légèrement différent de celui publié dans l'article de Tidière et al. (2018) ?
+- **3.1.B** - Pour quelles raisons le graphique produit à la question **3.1.A** est légèrement différent de celui publié dans Tidière et al. (2018) ?
 - **3.1.C** - Proposez des améliorations au graphique qui a été publié.
 
 <br>
@@ -164,4 +164,14 @@ Cette application contiendra :
   - une zone graphique contenant le ou les graphiques (selon les valeurs des deux objets interactifs précédents) de la distribution de l'âge des parents des portées de varis.
 
 
-- **4.2.C** - Dans le but de rendre disponible vos analyses sur le jeu de données `dfvaris_litter`, créez une application qui affiche le même graphique (par exemple, le boxplot représentant la distribution de la taille des portées de varis dans les 2 espèces, voir dernier onglet des sections 3.2 et 3.3) sous 3 formes différentes : le 1er généré à partir du package `graphics`, le 2ème généré à partir du package `ggplot2` et le 3ème généré à partir des packages `ggplot2` et `plotly`.
+- **4.2.C** - Dans le but de rendre disponibles vos analyses sur le jeu de données `dfvaris_litter`, créez une application qui affiche un même graphique (par exemple, le boxplot représentant la distribution de la taille des portées de varis dans les 2 espèces, voir le dernier onglet des sections 3.2 et 3.3) sous 3 formes différentes : le 1er généré à partir du package `graphics`, le 2ème généré à partir du package `ggplot2` et le 3ème généré à partir des packages `ggplot2` et `plotly`. 
+
+- **4.2.D** - Dans le but de rendre disponibles vos analyses sur le jeu de données `dfvaris_litter`, créez une application qui permet d'explorer la Figure S1 en annexe de l'article de @tidiere2018. 
+Vous pourrez vous appuyer soit sur le package `graphics` soit sur le package `ggplot2`.
+Vous pourrez par exemple proposer des outils pour :
+  - afficher ou pas une légende
+  - faire varier la grosseur des points
+  - attribuer une couleur à chaque espèce
+  - sélectionner la ou les variable.s représentée.s
+  - télécharger le graphique
+  
