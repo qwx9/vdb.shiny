@@ -41,7 +41,7 @@ Supposez une fonction `info_vect` qui prend en entrée un vecteur et qui renvoie
 - **2.2.C** - Appliquez cette fonction à la variable `survlitter48h` du jeu de données `dfvaris_litter`.
 - **2.2.D** - Faire une boucle pour appliquer cette fonction à chaque variable (colonne) du jeu de données `dfvaris_litter`.
 
-Pou aller plus loin :
+Pour aller plus loin :
 
 - **2.2.E** - Remplacez la boucle développée dans la question **2.2.D** par une fonction `lapply` qui vous donnera le même résultat.
 - **2.2.F** - Entre ces deux méthodes (**2.2.D** vs **2.2.E**), quelle la plus rapide ?
